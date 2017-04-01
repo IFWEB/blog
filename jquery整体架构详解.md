@@ -180,3 +180,7 @@ var test = new fn();
 - 绑定到$.fn上的属性所有实例都可以访问，jQuery便捷的插件扩展机制实际就是在$.fn添加方法。
 
 **本文作者:**  预知子（农金圈研发团队)，热爱技术的前端攻城狮。
+
+微信原文链接[：jquery整体架构详解](https://mp.weixin.qq.com/s?__biz=MzIzNzU0MDE4OQ==&mid=2247483671&idx=1&sn=b7753c0f685fe4df51a8edd055ec66b6&chksm=e8c64725dfb1ce331e903c6f71c661c4e8a15576d63d4a0c98b059e371d40ac5d3e997d7bd90#rd)  
+微信博客:农佳技
+## ![image](https://mp.weixin.qq.com/misc/getqrcode?fakeid=3237540189&token=1804528721&style=1)
