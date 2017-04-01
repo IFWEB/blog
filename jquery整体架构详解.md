@@ -54,9 +54,9 @@ function Base(){
 
   ## ![image](http://mmbiz.qpic.cn/mmbiz_png/kVpt8cTKh6bnOVTMw63ezp1SeKPakic7rHIGibl1hZpWIm8G6icTPFKzfkkrEhsygf1hVqLJnH0HS2w4Vvnr1xVfg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1) 原型prototype的深度理解
 
- js有一个说法——==一切皆对象==。js的数据类型主要分为两种：简单数据类型（undefined/null/string/number/boolean）,复杂数据类型（对象object）。而且其中null理解为空对象。除了简单数据类型以外，其他的复杂的数据类型都是继承自原始对象，所以才说复杂类型只有一种——对象。
+js有一个说法——一切皆对象。js的数据类型主要分为两种：简单数据类型（undefined/null/string/number/boolean）,复杂数据类型（对象object）。而且其中null理解为空对象。除了简单数据类型以外，其他的复杂的数据类型都是继承自原始对象，所以才说复杂类型只有一种——对象。
 
-这里定义几个概念，后文会用到。这里把通常意义上的对象叫做==对象==；而像函数、数组这类像对象一样拥有对象属性的特殊对象叫==类对象==；对象和类对象统称为==泛对象==。
+这里定义几个概念，后文会用到。这里把通常意义上的对象叫做对象；而像函数、数组这类像对象一样拥有对象属性的特殊对象叫类对象；对象和类对象统称为泛对象。
 
 在所有泛对象当中，函数是比较特殊的一种，只有函数拥有原型对象prototype(通过funcName.prototype访问funcName函数的原型对象)。所有泛对象都有一个隐藏的属性__proto__，称之为继承对象。继承对象实际就是泛对象的构造函数的原型对象，即obj.__proto__ = obj的构造函数.prototype。
 
@@ -184,3 +184,4 @@ var test = new fn();
 微信原文链接[：jquery整体架构详解](https://mp.weixin.qq.com/s?__biz=MzIzNzU0MDE4OQ==&mid=2247483671&idx=1&sn=b7753c0f685fe4df51a8edd055ec66b6&chksm=e8c64725dfb1ce331e903c6f71c661c4e8a15576d63d4a0c98b059e371d40ac5d3e997d7bd90#rd)  
 微信博客:农佳技
 ![image](http://mp.weixin.qq.com/misc/getqrcode?fakeid=3237540189&token=1804528721&style=1)
+
